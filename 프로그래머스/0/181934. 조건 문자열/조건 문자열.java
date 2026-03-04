@@ -9,7 +9,7 @@ class Solution {
         } else if (ineq.equals(">") && eq.equals("=")){
             answer = n >= m ? 1 : 0;
         } else {
-            answer = n < m ? 0 : 1;
+            answer = n > m ? 1 : 0;
         }
             
         return answer;
